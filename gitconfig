@@ -1,0 +1,31 @@
+[user]
+	name = Tony Tsui
+	email = tony.tsui@timgroup.com
+[color]
+	ui = true
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 959x1171+2880+0
+	history-view-vpane-position = 469
+	main-window-view = HistoryView
+	file-view-vpane-position = 593
+	file-view-hpane-position = 347
+[push]
+	default = simple
+[alias]
+    st       = status 
+    ci       = commit
+    co       = checkout
+    d        = diff -b
+    staged   = diff --cached
+    b        = branch -av
+    l        = log -p
+    both     = diff HEAD
+    amend    = commit --amend
+    unstage  = reset HEAD
+    uncommit = reset --soft HEAD^
+ 
+[branch]
+    autosetuprebase = always
+[pull]
+	rebase = true

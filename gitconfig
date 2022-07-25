@@ -29,3 +29,8 @@
     autosetuprebase = always
 [pull]
 	rebase = true
+[core]
+	excludesfile = /Users/tony/Source/dotfiles/gitignore_global
+	autocrlf = input
+[merge]
+  ff = only
